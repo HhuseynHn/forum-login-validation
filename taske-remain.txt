@@ -1,0 +1,4 @@
+Email validation make
+Password validation make
+visible password text
+next task movie

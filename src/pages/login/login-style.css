@@ -1,0 +1,127 @@
+/** @format */
+body {
+  width: 100%;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/04/60/71/01/1000_F_460710131_YkD6NsivdyYsHupNvO3Y8MPEwxTAhORh.jpg");
+  background-size: cover;
+}
+.login-container {
+  width: 33%;
+  margin: 0px auto;
+  margin-top: 90px;
+  border: 5px rgb(7, 62, 55);
+  border-style: double;
+  padding: 40px 0px;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.inner-distance {
+  width: 85%;
+  position: relative;
+  display: flex;
+  row-gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  border-width: 0px;
+  outline-width: 0px;
+  padding: 40px 0px 70px;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.opacity-size {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  background-color: black;
+  height: 100%;
+  opacity: 0.7;
+  z-index: -1;
+  border-radius: 20px;
+}
+input {
+  width: 100%;
+  outline-color: green;
+}
+.input-login {
+  width: 220px;
+  border-radius: 8px;
+  padding: 6px 10px;
+  padding-left: 24px;
+}
+.login-btn-cntr {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.login-btn-cntr button {
+  outline-color: green;
+  padding: 5px 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.login-btn {
+  padding: 5px 15px;
+  width: 253px;
+  color: white;
+  background-color: rgb(7, 62, 55);
+  border-color: white;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+input::placeholder {
+  font-size: 10px;
+  color: gray;
+  letter-spacing: 0.6px;
+}
+.fa-envelope,
+.fa-lock {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: gray !important;
+  font-size: 12px;
+}
+.eye-icon-gnrl {
+  position: absolute !important;
+  top: 10px;
+  right: 8px !important;
+  color: gray !important;
+  font-size: 12px;
+  cursor: pointer;
+}
+.forgot-paswr-cont {
+  position: absolute;
+  left: 3px;
+  top: 67px;
+  width: 100%;
+}
+.forgt-paswrd {
+  color: white;
+  font-size: 11px;
+  cursor: pointer;
+}
+.validation-paswrd {
+  position: absolute;
+  color: red;
+  font-size: 11px;
+  left: 3px;
+  top: 37px;
+}
+.validation-email {
+  position: absolute;
+  color: red;
+  font-size: 11px;
+  left: 3px;
+  top: 37px;
+}
+
+.hide-validation {
+  display: none;
+}
+.show-boreder {
+  border-color: red !important;
+  outline-color: red !important;
+}
